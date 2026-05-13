@@ -3,7 +3,7 @@ FROM alpine:latest
 # 设置版本变量，方便以后维护
 # sing-box 版本: https://github.com/SagerNet/sing-box/releases
 # cloudflared 版本: https://github.com/cloudflare/cloudflared/releases
-ARG SING_BOX_VERSION=1.10.1
+ARG SING_BOX_VERSION=1.14.0-alpha.23
 ARG CLOUDFLARED_VERSION=latest
 
 # 安装必要的下载工具和基础库
